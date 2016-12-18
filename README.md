@@ -1,44 +1,34 @@
-# MATLAB Fall 2014 – Research Plan (Template)
-(text between brackets to be removed)
+﻿# MATLAB Fall 2016 – Research Plan
 
-> * Group Name: (be creative!)
-> * Group participants names: (alphabetically sorted by last name)
-> * Project Title: (can be changed later)
+> * Group Name: Better Rich Party
+> * Group participants names: Ioannis Fousekis, Moritz Hohenfellner, Terry Louise Jones
+> * Project Title: Party Financing: Opinion Influence Modeling
 
 ## General Introduction
 
-(States your motivation clearly: why is it important / interesting to solve this problem?)
-(Add real-world examples, if any)
-(Put the problem into a historical context, from what does it originate? Are there already some proposed solutions?)
+Switzerland is a semi-direct democracy which means that in contrast to many other country people in Switzerland can vote on different issues rather than just electing representatives. Therefore there are political campaigns on regular basis which mainly financed by interest groups and parties. Since the financial situations of the involved interest groups often differ a lot, the impact of the campaign budget is a crucial factor on the probability of the outcomes. It should therefore be questioned whether this still fulfills democratic principles. Hence this project sets out to determine whether financing has an impact on the results and to what degree and whether it should be regulated. 
 
 ## The Model
 
-(Define dependent and independent variables you want to study. Say how you want to measure them.) (Why is your model a good abtraction of the problem you want to study?) (Are you capturing all the relevant aspects of the problem?)
-
+The proposed model uses an agent based approach with an underlying simplified mobility model.
+The model only looks at binary decisions, where the opinion on the topic can be described on a scale from 0 to 1. A value above .5 means for example that an agent would vote for a certain initiative.
+Each agent will be randomly assigned with an initial opinion. The distribution can be part of the tested scenarios.
+If two Agents meet at the same location they will discuss. There discussion will influence their opinions. The actual rules are still subject to some literature review which has to be done.
+The interest groups place advertisements across the network which influence the agents when they walk by them. The amount and position of advertisements corresponds to the budget of the interest group.
+Another kind of advertisement will be via broadcasting services which can reach every agent in the network with a given probability.
+The network will be something like a simple grid or hub and spoke network. Origin and destination pairs will be assigned randomly to every agent.
 
 ## Fundamental Questions
 
-(At the end of the project you want to find the answer to these questions)
-(Formulate a few, clear questions. Articulate them in sub-questions, from the more general to the more specific. )
-
-
-## Expected Results
-
-(What are the answers to the above questions that you expect to find before starting your research?)
+The research question is divided into two parts:
+Does the difference in budget influence the decision on political topics?
+Should the financing of political campaigns be regulated?
 
 
 ## References 
 
-(Add the bibliographic references you intend to use)
-(Explain possible extension to the above models)
-(Code / Projects Reports of the previous year)
-
+Hegselmann, Rainer, and Ulrich Krause. "Opinion dynamics and bounded confidence models, analysis, and simulation." Journal of Artificial Societies and Social Simulation 5.3 (2002)
 
 ## Research Methods
+Stochastic agent based model (CA for mobility and continuous model for opinions), Testing of different scenarios, statistical evaluation of results. 
 
-(Cellular Automata, Agent-Based Model, Continuous Modeling...) (If you are not sure here: 1. Consult your colleagues, 2. ask the teachers, 3. remember that you can change it afterwards)
-
-
-## Other
-
-(mention datasets you are going to use)
