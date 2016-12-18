@@ -1,0 +1,25 @@
+{
+    "contents" : "",
+    "created" : 1482064283627.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "EE0C5B79",
+    "lastKnownWriteTime" : 8534431689012371320,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "x2dh7sthdj",
+        "caption" : "Merged",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=Merged&cache_key=x2dh7sthdj",
+        "displayedObservations" : "600",
+        "environment" : "",
+        "object" : "Merged",
+        "totalObservations" : "600",
+        "variables" : "12"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}

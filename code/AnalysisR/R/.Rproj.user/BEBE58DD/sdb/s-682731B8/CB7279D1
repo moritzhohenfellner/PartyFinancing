@@ -1,0 +1,18 @@
+{
+    "contents" : "rm(list=ls(all=TRUE))\nsetwd(\"~/git/mss/MSS/R\")\nlibrary(\"ggplot2\")\nlibrary(\"plyr\")\nlibrary(\"RColorBrewer\")\nsource(\"defineBeamerPlot.R\")\n\n\n\nrunDir = \"testRun\";\nrunDir = \"peqs20\";\nrunDir = \"t70fix20\";\nrunDir = \"t70fix20PromVsStupid\";\nrunDir = \"t790fix20SwingVsStupid\";\nrunDir = \"1481575424202\";\nrunDir = \"1481584054667\";\n\nsetwd(paste(\"~/git/mss/MSS/output/\", runDir, sep=\"\"))\n\nsetwd(\"~/git/mss/MSS/output/1481660744993/\")\nsetwd(\"~/git/mss/MSS/D150Out/smallSwingStupid/1481926279694/\")\n\nsource(\"~/git/mss/MSS/R/generateStandardPlots.R\")\n\n\n\n\n# Check whether number of time steps was sufficient  -------------------------------\nmaxTs = max(record$ts)\nplot(density(ddply(record, ~runNumber, summarize, diff12=posOpinionShare[1]-posOpinionShare[2])$diff12))\nplot(density(ddply(record, ~runNumber, summarize, diff56=posOpinionShare[maxTs-1]-posOpinionShare[maxTs])$diff56))\n",
+    "created" : 1481897586899.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3704183992",
+    "id" : "CB7279D1",
+    "lastKnownWriteTime" : 1481985021,
+    "path" : "~/git/mss/MSS/R/main.R",
+    "project_path" : "main.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "type" : "r_source"
+}

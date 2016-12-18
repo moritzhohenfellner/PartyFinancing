@@ -1,0 +1,25 @@
+{
+    "contents" : "",
+    "created" : 1482064511659.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "573382DB",
+    "lastKnownWriteTime" : 4444627176,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "utmemy0m80",
+        "caption" : "Symm",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=Symm&cache_key=utmemy0m80",
+        "displayedObservations" : 200,
+        "environment" : "",
+        "object" : "Symm",
+        "totalObservations" : 200,
+        "variables" : 9
+    },
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}
